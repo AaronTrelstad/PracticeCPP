@@ -1,0 +1,3 @@
+/Users/aarontrelstad/PracticeCPP/cmake-build-debug/CMakeFiles/PracticeCPP.dir
+/Users/aarontrelstad/PracticeCPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/aarontrelstad/PracticeCPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
