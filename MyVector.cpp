@@ -37,9 +37,35 @@ public:
         data[size++] = value;
     }
 
+    void push_front(const T& value) {
+
+    }
+
+    void push(const T& value, int index) {
+
+    }
+
+    void pop_back() {
+        if (size > 0) {
+            --size;
+        }
+    }
+
+    void pop_front() {
+
+    }
+
+    void pop(int index) {
+
+    }
+
     // Const function throws compile error if you change a data member
     size_t getSize() const {
         return size;
+    }
+
+    size_t getCapacity() const {
+        return capacity;
     }
 
     // Non-const subscript operator, allows modification
@@ -52,8 +78,3 @@ public:
         return data[index];
     }
 };
-
-
-
-
-

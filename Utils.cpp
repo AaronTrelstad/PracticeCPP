@@ -28,7 +28,7 @@ public:
         }
 
         while (value != 0) {
-            buffer[i++] = (value % 10) + '0';
+            buffer[i++] = '0' + (value % 10);
             value /= 10;
         }
 

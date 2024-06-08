@@ -67,6 +67,12 @@ build CMakeFiles/PracticeCPP.dir/Utils.cpp.o: CXX_COMPILER__PracticeCPP_unscanne
   OBJECT_DIR = CMakeFiles/PracticeCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/PracticeCPP.dir
 
+build CMakeFiles/PracticeCPP.dir/MyLinkedList.cpp.o: CXX_COMPILER__PracticeCPP_unscanned_Debug /Users/aarontrelstad/PracticeCPP/MyLinkedList.cpp || cmake_object_order_depends_target_PracticeCPP
+  DEP_FILE = CMakeFiles/PracticeCPP.dir/MyLinkedList.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/PracticeCPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/PracticeCPP.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target PracticeCPP
@@ -75,7 +81,7 @@ build CMakeFiles/PracticeCPP.dir/Utils.cpp.o: CXX_COMPILER__PracticeCPP_unscanne
 #############################################
 # Link the executable PracticeCPP
 
-build PracticeCPP: CXX_EXECUTABLE_LINKER__PracticeCPP_Debug CMakeFiles/PracticeCPP.dir/main.cpp.o CMakeFiles/PracticeCPP.dir/MyVector.cpp.o CMakeFiles/PracticeCPP.dir/Utils.cpp.o
+build PracticeCPP: CXX_EXECUTABLE_LINKER__PracticeCPP_Debug CMakeFiles/PracticeCPP.dir/main.cpp.o CMakeFiles/PracticeCPP.dir/MyVector.cpp.o CMakeFiles/PracticeCPP.dir/Utils.cpp.o CMakeFiles/PracticeCPP.dir/MyLinkedList.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4
   OBJECT_DIR = CMakeFiles/PracticeCPP.dir
   POST_BUILD = :
