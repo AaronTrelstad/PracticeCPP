@@ -3,7 +3,7 @@
 //
 #include <cstdio>
 
-class Utils {
+class MyUtils {
 private:
 public:
     static void print(const char* str) {

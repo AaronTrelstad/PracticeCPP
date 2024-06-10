@@ -109,13 +109,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Utils.cpp",
+			"path" : "MyUtils.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "MyLinkedList.cpp",
+			"path" : "MySinglyLinkedList.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

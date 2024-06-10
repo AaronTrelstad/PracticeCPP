@@ -1,10 +1,12 @@
 #include "MyVector.cpp"
-#include "Utils.cpp"
+#include "MySinglyLinkedList.cpp"
+#include "MyUtils.cpp"
 
 /**
  * Making common things in C++
- * Data Structures: Vector, Single and Double Linked List, Binary Trees, Heaps
- * Memory: Smart Pointers, Garbage Collector
+ * Data Structures: Vector, Single and Double Linked List, Stack, Queue, Binary Trees, Heaps
+ * Virtual Functions: Virtual File System
+ * Memory: Smart Pointers(Unique and Shared), Garbage Collector
  * @return
  */
 int main() {
@@ -14,9 +16,9 @@ int main() {
     vec.pop_back();
     vec.push_back(30);
 
-    Utils::print("MyVector\n");
+    MyUtils::print("MyVector\n");
     for (int i = 0; i < vec.getSize(); i++) {
-        Utils::printInt(vec[i]);
-        Utils::print(" ");
+        MyUtils::printInt(vec[i]);
+        MyUtils::print(" ");
     }
 }

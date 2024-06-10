@@ -80,7 +80,13 @@ public:
     }
 
     void pop_back() {
-
+        if (head) {
+            Node* current = head;
+            while (current -> next) {
+                current = current -> next;
+            }
+            current -> next = nullptr;
+        }
     }
 
     void pop(int index) {

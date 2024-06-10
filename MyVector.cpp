@@ -59,6 +59,14 @@ public:
 
     }
 
+    T peek_back() {
+        return data[size];
+    }
+
+    T peek_front() {
+        return data[0];
+    }
+
     // Const function throws compile error if you change a data member
     size_t getSize() const {
         return size;
